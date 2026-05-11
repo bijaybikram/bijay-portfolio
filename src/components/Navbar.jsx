@@ -28,7 +28,7 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
         <a href="#top" className="font-display font-bold text-lg tracking-tight">
-          BD<span className="text-cream-600">.</span>
+          BBD<span className="text-cream-600">.</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
