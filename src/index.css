@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream-50 text-ink font-sans antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 8% -10%, #f5eeb8 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 95% 110%, #fbf6d6 0%, transparent 60%),
+    linear-gradient(180deg, #fdfbef 0%, #fbf9e6 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+::selection {
+  @apply bg-cream-300 text-ink;
+}
+
+/* Subtle film grain to break up the flat cream */
+.grain::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Faint dotted grid behind hero / sections */
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(125, 110, 37, 0.18) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
