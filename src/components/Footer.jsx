@@ -19,7 +19,7 @@ export default function Footer() {
             <Linkedin className="w-4 h-4" />
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/bijaybikram"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
