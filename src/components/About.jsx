@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 
 const skills = [
-  { group: 'Test Automation', items: ['Playwright', 'Selenium', 'Cypress', 'Appium'] },
-  { group: 'API & Performance', items: ['Postman', 'REST Assured', 'JMeter', 'k6'] },
-  { group: 'CI/CD & Tooling', items: ['Jenkins', 'GitHub Actions', 'Docker', 'Allure'] },
+  { group: 'Test Automation', items: ['Playwright', 'Selenium'] },
+  { group: 'API & Performance', items: ['Postman', 'REST Assured', 'JMeter', 'GraphQL'] },
+  { group: 'CI/CD & Tooling', items: ['Jenkins', 'GitHub Actions', 'Docker'] },
   { group: 'Languages', items: ['JavaScript', 'TypeScript', 'Python', 'Java'] },
 ]
 

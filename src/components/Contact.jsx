@@ -28,11 +28,11 @@ export default function Contact() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="mailto:bijay@example.com"
+                href="mailto:bijaybikram01@gmail.com"
                 className="group inline-flex items-center gap-2 rounded-full bg-ink text-cream-50 px-6 py-3 font-medium hover:bg-cream-800 transition-colors shadow-lg shadow-cream-700/10"
               >
                 <Mail className="w-4 h-4" />
-                bijay@example.com
+                bijaybikram01@gmail.com
                 <ArrowUpRight className="w-4 h-4 transition-transform group-hover:rotate-45" />
               </a>
               <a
